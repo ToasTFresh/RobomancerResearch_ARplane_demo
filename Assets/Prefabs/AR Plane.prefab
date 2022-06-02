@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4064956656502289508}
   - component: {fileID: 8049903977032547119}
   - component: {fileID: 2783202807279182358}
-  - component: {fileID: 6833786943774440434}
   - component: {fileID: 8054432086940448499}
   - component: {fileID: 8990477438715170009}
   - component: {fileID: 1756974504278248081}
@@ -85,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6833786943774440434
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4477249554501454630}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!120 &8054432086940448499
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -162,7 +147,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 0.4339623, b: 0.0034817932, a: 1}
+      key0: {r: 1, g: 1, b: 1, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -223,5 +208,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d180956a54db4646a1c6342921672ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackingStateVisibilityThreshold: 1
+  m_TrackingStateVisibilityThreshold: 2
   m_HideSubsumed: 1
