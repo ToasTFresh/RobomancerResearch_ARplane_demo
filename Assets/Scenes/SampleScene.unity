@@ -316,6 +316,8 @@ GameObject:
   - component: {fileID: 848027453}
   - component: {fileID: 848027452}
   - component: {fileID: 848027451}
+  - component: {fileID: 848027455}
+  - component: {fileID: 848027454}
   m_Layer: 0
   m_Name: MixedRealityPlayspace
   m_TagString: Untagged
@@ -335,8 +337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 4477249554501454630, guid: 2903edb3a12cf8642a6dbc4386a9294c, type: 3}
-  m_DetectionMode: 2
+  m_PlanePrefab: {fileID: 2228061753244145900, guid: b65f7f2c5d6cd844192dac0d5422acd0, type: 3}
+  m_DetectionMode: -1
 --- !u!114 &848027452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,6 +367,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &848027454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848027450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0957e6c498621d44bbe05f0be0067c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPrefab: {fileID: 4218893810240722596, guid: eaf06728c18a3b44798913659b4dc802, type: 3}
+--- !u!114 &848027455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848027450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
