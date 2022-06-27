@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "com.microsoft.azure.spatial-anchors-sdk.android": {
+      "version": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.android-2.12.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.xr.arcore": "4.0.12",
+        "com.microsoft.azure.spatial-anchors-sdk.core": "2.12.0"
+      }
+    },
+    "com.microsoft.azure.spatial-anchors-sdk.core": {
+      "version": "file:MixedReality/com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.subsystemregistration": "1.0.6",
+        "com.unity.xr.arsubsystems": "4.0.8",
+        "com.unity.xr.arfoundation": "4.0.12"
+      }
+    },
     "com.microsoft.mixedreality.toolkit.examples": {
       "version": "file:MixedReality/com.microsoft.mixedreality.toolkit.examples-2.8.0.tgz",
       "depth": 0,
